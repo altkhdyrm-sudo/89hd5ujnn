@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: تطبيق مدرسي",
+  "description": "تطبيق مدرسي مخصص لمراجعة قواعد اللغة العربية والأسئلة الوزارية بأسلوب تفاعلي",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

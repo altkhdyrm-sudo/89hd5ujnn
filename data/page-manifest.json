@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "madrasati",
+  "sourceFile": {
+    "fileName": "وزاريّاتُ_مصادرِ_الأفعالِ_الثّلاثيّةِ_وغيرِ_الثّلاثيّةِ(2).pdf",
+    "pdfSha256": "51a1225e262e45b6a1a6ec168ece75807d85a668857d705af47d8106bc48af23",
+    "totalPages": 31
+  },
+  "pages": [
+    {
+      "pageId": "pdf-p002",
+      "pdfPageNumber": 2,
+      "visiblePageLabel": "~1~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 4,
+      "seededQuestionsCount": 4,
+      "seededQuestionIds": [
+        "q-001",
+        "q-002",
+        "q-003",
+        "q-004"
+      ]
+    },
+    {
+      "pageId": "pdf-p003",
+      "pdfPageNumber": 3,
+      "visiblePageLabel": "~2~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-005",
+        "q-006",
+        "q-007"
+      ]
+    },
+    {
+      "pageId": "pdf-p004",
+      "pdfPageNumber": 4,
+      "visiblePageLabel": "~3~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-008",
+        "q-009",
+        "q-010"
+      ]
+    },
+    {
+      "pageId": "pdf-p005",
+      "pdfPageNumber": 5,
+      "visiblePageLabel": "~4~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-011",
+        "q-012"
+      ]
+    },
+    {
+      "pageId": "pdf-p006",
+      "pdfPageNumber": 6,
+      "visiblePageLabel": "~5~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-013",
+        "q-014"
+      ]
+    },
+    {
+      "pageId": "pdf-p007",
+      "pdfPageNumber": 7,
+      "visiblePageLabel": "~6~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-015",
+        "q-016",
+        "q-017"
+      ]
+    },
+    {
+      "pageId": "pdf-p008",
+      "pdfPageNumber": 8,
+      "visiblePageLabel": "~7~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-018",
+        "q-019"
+      ]
+    },
+    {
+      "pageId": "pdf-p009",
+      "pdfPageNumber": 9,
+      "visiblePageLabel": "~8~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-020",
+        "q-021"
+      ]
+    },
+    {
+      "pageId": "pdf-p010",
+      "pdfPageNumber": 10,
+      "visiblePageLabel": "~9~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-022",
+        "q-023",
+        "q-024"
+      ]
+    },
+    {
+      "pageId": "pdf-p011",
+      "pdfPageNumber": 11,
+      "visiblePageLabel": "~10~",
+      "status": "pages-2-to-11-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-025",
+        "q-026"
+      ]
+    },
+    {
+      "pageId": "pdf-p012",
+      "pdfPageNumber": 12,
+      "visiblePageLabel": "~11~",
+      "status": "pages-12-to-16-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-027",
+        "q-028"
+      ]
+    },
+    {
+      "pageId": "pdf-p013",
+      "pdfPageNumber": 13,
+      "visiblePageLabel": "~12~",
+      "status": "pages-12-to-16-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-029",
+        "q-030"
+      ]
+    },
+    {
+      "pageId": "pdf-p014",
+      "pdfPageNumber": 14,
+      "visiblePageLabel": "~13~",
+      "status": "pages-12-to-16-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-031",
+        "q-032"
+      ]
+    },
+    {
+      "pageId": "pdf-p015",
+      "pdfPageNumber": 15,
+      "visiblePageLabel": "~14~",
+      "status": "pages-12-to-16-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-033",
+        "q-034"
+      ]
+    },
+    {
+      "pageId": "pdf-p016",
+      "pdfPageNumber": 16,
+      "visiblePageLabel": "~15~",
+      "status": "pages-12-to-16-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-035",
+        "q-036",
+        "q-037"
+      ]
+    },
+    {
+      "pageId": "pdf-p017",
+      "pdfPageNumber": 17,
+      "visiblePageLabel": "~16~",
+      "status": "pages-17-to-21-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-038",
+        "q-039"
+      ]
+    },
+    {
+      "pageId": "pdf-p018",
+      "pdfPageNumber": 18,
+      "visiblePageLabel": "~17~",
+      "status": "pages-17-to-21-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-040",
+        "q-041",
+        "q-042"
+      ]
+    },
+    {
+      "pageId": "pdf-p019",
+      "pdfPageNumber": 19,
+      "visiblePageLabel": "~18~",
+      "status": "pages-17-to-21-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-043",
+        "q-044",
+        "q-045"
+      ]
+    },
+    {
+      "pageId": "pdf-p020",
+      "pdfPageNumber": 20,
+      "visiblePageLabel": "~19~",
+      "status": "pages-17-to-21-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-046",
+        "q-047",
+        "q-048"
+      ]
+    },
+    {
+      "pageId": "pdf-p021",
+      "pdfPageNumber": 21,
+      "visiblePageLabel": "~20~",
+      "status": "pages-17-to-21-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 4,
+      "seededQuestionsCount": 4,
+      "seededQuestionIds": [
+        "q-049",
+        "q-050",
+        "q-051",
+        "q-052"
+      ]
+    },
+    {
+      "pageId": "pdf-p022",
+      "pdfPageNumber": 22,
+      "visiblePageLabel": "~21~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 4,
+      "seededQuestionsCount": 4,
+      "seededQuestionIds": [
+        "q-053",
+        "q-054",
+        "q-055",
+        "q-056"
+      ]
+    },
+    {
+      "pageId": "pdf-p023",
+      "pdfPageNumber": 23,
+      "visiblePageLabel": "~22~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-057",
+        "q-058",
+        "q-059"
+      ]
+    },
+    {
+      "pageId": "pdf-p024",
+      "pdfPageNumber": 24,
+      "visiblePageLabel": "~23~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 4,
+      "seededQuestionsCount": 4,
+      "seededQuestionIds": [
+        "q-060",
+        "q-061",
+        "q-062",
+        "q-063"
+      ]
+    },
+    {
+      "pageId": "pdf-p025",
+      "pdfPageNumber": 25,
+      "visiblePageLabel": "~24~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-064",
+        "q-065",
+        "q-066"
+      ]
+    },
+    {
+      "pageId": "pdf-p026",
+      "pdfPageNumber": 26,
+      "visiblePageLabel": "~25~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-067",
+        "q-068",
+        "q-069"
+      ]
+    },
+    {
+      "pageId": "pdf-p027",
+      "pdfPageNumber": 27,
+      "visiblePageLabel": "~26~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-070",
+        "q-071"
+      ]
+    },
+    {
+      "pageId": "pdf-p028",
+      "pdfPageNumber": 28,
+      "visiblePageLabel": "~27~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-072",
+        "q-073"
+      ]
+    },
+    {
+      "pageId": "pdf-p029",
+      "pdfPageNumber": 29,
+      "visiblePageLabel": "~28~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 3,
+      "seededQuestionsCount": 3,
+      "seededQuestionIds": [
+        "q-074",
+        "q-075",
+        "q-076"
+      ]
+    },
+    {
+      "pageId": "pdf-p030",
+      "pdfPageNumber": 30,
+      "visiblePageLabel": "~29~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-077",
+        "q-078"
+      ]
+    },
+    {
+      "pageId": "pdf-p031",
+      "pdfPageNumber": 31,
+      "visiblePageLabel": "~30~",
+      "status": "pages-22-to-31-final-batch",
+      "includedInSourcePages": true,
+      "expectedQuestionsOnPage": 2,
+      "seededQuestionsCount": 2,
+      "seededQuestionIds": [
+        "q-079",
+        "q-080"
+      ]
+    }
+  ]
+}

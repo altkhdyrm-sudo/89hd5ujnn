@@ -1,0 +1,334 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --font-ui: "Cairo", sans-serif;
+  --font-quran: "Amiri Quran", serif;
+  --font-literary: "Amiri", serif;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: var(--font-ui), sans-serif;
+  background-color: #F5F3FF;
+  min-height: 100vh;
+  @apply dark:bg-[#0f172a] dark:text-slate-100;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.quran-text {
+  font-family: var(--font-quran), serif;
+  direction: rtl;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.poetry-text,
+.literary-text {
+  font-family: var(--font-literary), serif;
+  direction: rtl;
+  text-align: center;
+  line-height: 2.2;
+}
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Amiri", serif;
+  --font-quran: "Amiri", serif;
+  --font-poetry: "Amiri", serif;
+
+  --color-primary-brand: #43007e;
+  --color-primary-container: #5b2596;
+  --color-on-primary-container: #ca9dff;
+  --color-secondary-brand: #7742b5;
+  --color-secondary-container: #bd87fe;
+  --color-on-secondary-container: #4e108b;
+  --color-tertiary-brand: #3d166c;
+  --color-tertiary-container: #553084;
+  --color-on-tertiary-container: #c79ffb;
+  --color-background-brand: #f9f9ff;
+  --color-surface-brand: #f9f9ff;
+  --color-on-surface-brand: #141b2a;
+  --color-on-surface-variant: #4b4451;
+  --color-outline-brand: #7c7483;
+  --color-outline-variant: #cdc3d3;
+  --color-soft-lavender: #E9E6FA;
+  --color-page-bg: #F5F3FF;
+  --color-muted-gray: #687084;
+  --color-border-soft: #D9D3F0;
+  
+  --color-status-unanswered: #F3F4F6;
+  --color-status-answered: #E0F2FE;
+  --color-status-viewed: #FEF3C7;
+  --color-status-rated: #DCFCE7;
+  
+  --color-success-green: #10B981;
+  --color-warning-amber: #D97706;
+  --color-danger-red: #EF4444;
+}
+
+@utility bg-gradient-mesh {
+  background-color: #F5F3FF;
+  background-image: 
+      radial-gradient(at 0% 0%, rgba(233, 230, 250, 0.5) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(216, 185, 255, 0.2) 0px, transparent 50%);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cdc3d3;
+  border-radius: 10px;
+}
+
+.amiri-quran {
+  font-family: 'Amiri', serif;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Answer Table Styling and Responsiveness */
+.answer-table-desktop {
+  display: block;
+}
+
+.answer-table-mobile {
+  display: none;
+}
+
+.answer-table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 12px;
+}
+
+.answer-table {
+  width: 100%;
+  border-collapse: collapse;
+  direction: rtl;
+  table-layout: auto;
+}
+
+.answer-table[data-cols="2"] {
+  min-width: 420px;
+}
+
+.answer-table[data-cols="3"] {
+  min-width: 620px;
+}
+
+.answer-table[data-cols="4"] {
+  min-width: 760px;
+}
+
+.answer-table th,
+.answer-table td {
+  padding: 10px 12px;
+  text-align: right;
+  vertical-align: top;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  line-height: 1.8;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.dark .answer-table th,
+.dark .answer-table td {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.answer-table th {
+  font-weight: 700;
+}
+
+.answer-table td:first-child,
+.answer-table th:first-child {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .answer-table-desktop {
+    display: none;
+  }
+
+  .answer-table-mobile {
+    display: grid;
+    gap: 12px;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .answer-row-card {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.75);
+    overflow: hidden;
+    direction: rtl;
+  }
+
+  .dark .answer-row-card {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(15, 23, 42, 0.75);
+  }
+
+  .answer-row-field {
+    display: block;
+    padding: 12px 14px;
+    text-align: right;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .dark .answer-row-field {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .answer-row-field:last-child {
+    border-bottom: none;
+  }
+
+  .answer-row-label {
+    display: block;
+    font-weight: 800;
+    color: #07966a;
+    margin-bottom: 6px;
+    white-space: normal;
+  }
+
+  .dark .answer-row-label {
+    color: #34d399; /* Emerald-400 */
+  }
+
+  .answer-row-value {
+    display: block;
+    width: 100%;
+    line-height: 1.9;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    text-align: right;
+  }
+}
+
+@media (min-width: 641px) {
+  .answer-table-mobile {
+    display: none;
+  }
+}
+
+/* Self Rating Card Styles */
+.self-rating-card {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  direction: rtl;
+  text-align: right;
+  padding: 18px 16px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.self-rating-title {
+  margin: 0 0 12px;
+  font-weight: 800;
+  line-height: 1.6;
+  text-align: right;
+}
+
+.self-rating-help {
+  margin: 0 0 8px;
+  font-weight: 800;
+  line-height: 1.7;
+  text-align: right;
+}
+
+.self-rating-value {
+  margin: 0 0 14px;
+  font-weight: 800;
+  line-height: 1.6;
+  text-align: right;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+.self-rating-value .score-number {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-block;
+}
+
+.self-rating-slider {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 10px 0 12px;
+}
+
+.self-rating-scale {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: ltr;
+  width: 100%;
+  max-width: 100%;
+  font-size: 0.9rem;
+  line-height: 1;
+  opacity: 0.75;
+}
+
+.self-rating-scale span {
+  display: inline-block;
+  min-width: 1ch;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .self-rating-card {
+    padding: 16px 14px;
+    border-radius: 16px;
+  }
+
+  .self-rating-title {
+    font-size: 1.05rem;
+    text-align: right;
+  }
+
+  .self-rating-help,
+  .self-rating-value {
+    font-size: 0.95rem;
+    text-align: right;
+  }
+
+  .self-rating-scale {
+    font-size: 0.82rem;
+  }
+}
+
+
